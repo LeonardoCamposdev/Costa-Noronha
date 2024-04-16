@@ -112,16 +112,38 @@
 }
 
 @media (max-width: 450px) {
+  .header-primeira-linha {
+    flex-direction: initial;
+}
   .lupa {
-    top: 163px;
+    top: 162px;
     right: 76px;
   }
 }
+
+@media (max-width: 435px) {
+  .lupa {
+    top: 158px;
+  }
+}
+
+@media (max-width: 420px) {
+  .lupa {
+    top: 152px;
+  }
+}
+
 
 @media (max-width: 415px) {
   .lupa {
     top: 152px;
     right: 62px;
+  }
+}
+
+@media (max-width: 380px) {
+  .lupa {
+    top: 138px;
   }
 }
 
