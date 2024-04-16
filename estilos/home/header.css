@@ -162,7 +162,7 @@
   }
 
   .nav.active .header-menu {
-    height: 100vh;
+    height: 45vh;
     visibility: visible;
     overflow-y: auto;
   }
