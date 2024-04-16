@@ -115,37 +115,17 @@
   .header-primeira-linha {
     flex-direction: initial;
 }
+
+.header-logo{
+  max-width: none;
+}
+
   .lupa {
-    top: 162px;
+    top: 164px;
     right: 76px;
   }
 }
 
-@media (max-width: 435px) {
-  .lupa {
-    top: 158px;
-  }
-}
-
-@media (max-width: 420px) {
-  .lupa {
-    top: 152px;
-  }
-}
-
-
-@media (max-width: 415px) {
-  .lupa {
-    top: 152px;
-    right: 62px;
-  }
-}
-
-@media (max-width: 380px) {
-  .lupa {
-    top: 138px;
-  }
-}
 
 @media (max-width: 715px) {
   .header-primeira-linha {
