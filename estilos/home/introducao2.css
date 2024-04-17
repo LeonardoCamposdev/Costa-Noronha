@@ -103,6 +103,10 @@
     width: initial;
     max-width: 100%;
   }
+
+  .div-row{
+    grid-row: 1;
+  }
 }
 
 
