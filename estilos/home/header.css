@@ -171,7 +171,7 @@
   }
 
   .nav.active .header-menu {
-    height: 37vh;
+    height: 45vh;
     visibility: visible;
     overflow-y: auto;
     background-color: var(--cor-0);
