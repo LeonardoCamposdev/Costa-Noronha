@@ -161,7 +161,7 @@
     display: block;
     position: absolute;
     width: 100%;
-    top: 304px;
+    top: 324px;
     right: 0px;
     transition: 0.6s;
     z-index: 1000;
@@ -243,6 +243,6 @@
 
 @media (max-width: 712px) {
   .nav {
-    padding-left: 20px;
+    padding: 10px 0px;
   }
 }
