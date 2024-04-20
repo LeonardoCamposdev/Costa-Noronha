@@ -34,38 +34,43 @@
 
 .principais-servicos-div {
   transition: filter, transform 0.6s;
-  width: 340px;
-  height: 340px;
+  width: 280px;
+  height: 350px;
   border-radius: 20px;
 }
 
-#passeio-1{
+.principais-servicos-lista .principais-servicos-div:hover {
+  transform: scale(1.1);
+}
+
+#passeio-1 {
   background: url(../../imgs/passeio-2.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-#passeio-2{
+#passeio-2 {
   background: url(../../imgs/passeio-3.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-#passeio-3{
+#passeio-3 {
   background: url(../../imgs/passeio-1.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-#passeio-4{
+#passeio-4 {
   background: url(../../imgs/passeio-4.jpg);
   background-position: center center;
   background-size: cover;
 }
 
-
-.principais-servicos-lista .principais-servicos-div:hover {
-  transform: scale(1.1);
+#passeio-5 {
+  background: url(../../imgs/passeio-5.jpg);
+  background-position: center center;
+  background-size: cover;
 }
 
 .principais-servicos-lista p {
