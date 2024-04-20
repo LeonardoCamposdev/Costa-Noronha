@@ -1,113 +1,114 @@
-.introducao2-container{
+.introducao2-container {
   max-width: 1200px;
   margin: 0 auto;
-}
-.introducao2-conteudo{
   padding: 100px 40px 40px 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap:  20px 60px;
-
 }
-
-.introducao2-conteudo .h2-ilha{
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.introducao2-conteudo .h2-piscinas{
-  padding-top: 40px;
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.introducao2-conteudo h2{
-  font-size: 2rem;
-  line-height: 1.3;
-  margin-bottom: 10px;
-}
-
-.introducao2-conteudo p{
-  font-weight: 600;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-.introducao2-conteudo img{
-  border-radius: 6px;
-}
-
-.introducao2-conteudo .img-piscinas{
-  height: 550px;
-  width: 550px;
-  border-radius: 20px;
-}
-
-
-/* INTRODUCAO 3 */ 
-
-.introducao3-container{
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  height: 2000px;
-}
-.introducao3-conteudo{
-  padding: 100px 40px 40px 20px;
+.introducao2-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px 60px;
 }
 
-.introducao3-conteudo .h2-ilha{
+.introducao2-conteudo .h2-ilha {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.introducao3-conteudo .h2-piscinas{
+.introducao2-conteudo .h2-piscinas {
   padding-top: 40px;
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.introducao3-conteudo h2{
+.introducao2-conteudo h2 {
   font-size: 2rem;
   line-height: 1.3;
   margin-bottom: 10px;
 }
 
-.introducao3-conteudo p{
+.introducao2-conteudo p {
   font-weight: 600;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 
-.introducao3-conteudo img{
+.introducao2-conteudo img {
   border-radius: 6px;
 }
 
-.introducao3-conteudo .img-piscinas{
+.introducao2-conteudo .img-piscinas {
   height: 550px;
   width: 550px;
   border-radius: 20px;
 }
 
+/* INTRODUCAO 3 */
 
-@media (max-width:780px){
-  .introducao2-conteudo, .introducao3-conteudo{
+.introducao3-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 40px 40px 20px;
+  margin-bottom: 40px;
+}
+.introducao3-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 60px;
+}
+
+.introducao3-conteudo .h2-ilha {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.introducao3-conteudo .h2-piscinas {
+  padding-top: 40px;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.introducao3-conteudo h2 {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.introducao3-conteudo p {
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.introducao3-conteudo img {
+  border-radius: 6px;
+}
+
+.introducao3-conteudo .img-piscinas {
+  height: 550px;
+  width: 550px;
+  border-radius: 20px;
+}
+
+@media (max-width: 780px) {
+  .introducao2-conteudo,
+  .introducao3-conteudo {
     grid-template-columns: 1fr;
-    padding: 100px 20px 20px 20px;
+    padding: 100px 0px 20px 0px;
   }
 
-  .introducao3-conteudo .img-piscinas{
+  .introducao3-conteudo .img-piscinas {
     height: initial;
     width: initial;
     max-width: 100%;
   }
 
-  .div-row{
+  .div-row {
     grid-row: 1;
   }
 }
 
-
+@media (max-width: 420px) {
+  .introducao3-conteudo .img-piscinas {
+    max-width: 350px;
+  }
+}
