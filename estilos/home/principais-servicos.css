@@ -50,7 +50,14 @@
 }
 
 @media (max-width:500px){
+  .principais-servicos-lista{
+    margin: 0px 30px;
+  }
+
+
   .principais-servicos-lista img{
     max-width: 100%;
   }
+
+
 }
