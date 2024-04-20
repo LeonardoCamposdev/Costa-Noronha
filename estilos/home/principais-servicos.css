@@ -32,14 +32,19 @@
   position: relative;
 }
 
+.principais-servicos-div {
+  transition: filter, transform 0.6s;
+}
+
 .principais-servicos-lista img {
   max-width: 340px;
   border-radius: 20px;
   margin-bottom: 20px;
-  transition: filter, transform 0.6s;
 }
 
-.principais-servicos-lista img:hover {
+
+
+.principais-servicos-lista .principais-servicos-div:hover {
   transform: scale(1.1);
 }
 
@@ -51,7 +56,7 @@
   position: absolute;
   top: 100px;
   left: 100px;
- text-shadow: 2px 4px 2px black;
+  text-shadow: 2px 4px 2px black;
 }
 
 @media (max-width: 500px) {
