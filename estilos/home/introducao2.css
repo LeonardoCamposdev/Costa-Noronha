@@ -93,7 +93,7 @@
   .introducao2-conteudo,
   .introducao3-conteudo {
     grid-template-columns: 1fr;
-    padding: 100px 0px 20px 0px;
+    padding: 50px 20px 40px 20px;
   }
 
   .introducao3-conteudo .img-piscinas {
@@ -108,7 +108,13 @@
 }
 
 @media (max-width: 420px) {
+  .introducao2-container,
+  .introducao3-container {
+    padding: 50px 5px 40px 5px;
+  }
+
   .introducao3-conteudo .img-piscinas {
-    max-width: 350px;
+    max-width: 100%;
+    border-radius: 10px;
   }
 }
