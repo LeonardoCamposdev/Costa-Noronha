@@ -22,9 +22,9 @@
 
 .principais-servicos-lista {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 0px 60px;
   padding-bottom: 40px;
 }
 
