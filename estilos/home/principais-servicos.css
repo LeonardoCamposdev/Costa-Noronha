@@ -25,6 +25,7 @@
   flex-wrap: wrap;
   gap: 20px;
   margin: 0px 60px;
+  padding-bottom: 40px;
 }
 
 .principais-servicos-lista li {
@@ -41,8 +42,6 @@
   border-radius: 20px;
   margin-bottom: 20px;
 }
-
-
 
 .principais-servicos-lista .principais-servicos-div:hover {
   transform: scale(1.1);
