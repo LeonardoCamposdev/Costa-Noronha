@@ -3,7 +3,7 @@
   background: url(../../imgs/image-home.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   background-attachment: fixed;
   position: relative;
 }
