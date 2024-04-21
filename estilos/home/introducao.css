@@ -56,6 +56,10 @@
 }
 
 @media (max-width: 700px) {
+  .introducao-bg {
+    background-position: center left;
+    background-size: cover !important;
+  }
   .introducao-conteudo h1 {
     font-size: 3rem;
   }
@@ -64,3 +68,4 @@
     font-size: 1rem;
   }
 }
+ 
