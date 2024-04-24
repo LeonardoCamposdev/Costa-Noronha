@@ -33,3 +33,11 @@
 .galeria img{
   max-width: 365px;
 }
+
+
+@media (max-width:420px){
+  .galeria img{
+    margin: 0 auto;
+    max-width: 345px;
+  }
+}
