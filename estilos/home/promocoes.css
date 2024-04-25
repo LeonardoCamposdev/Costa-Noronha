@@ -1,0 +1,51 @@
+.promocoes-bg {
+  background-color: var(--cor-3);
+}
+
+.promocoes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.promocoes-conteudo h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.promocoes-pacotes li{
+  margin-bottom: 30px;
+}
+
+.promocoes-pacotes span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.promocoes-pacotes p{
+  font-weight: 600;
+}
+
+.pacote {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.pacote::after{
+  content: "";
+  display: inline-block;
+  height: 1px;
+  max-width: 997px;
+  background-color: var(--cor-1);
+  position: absolute;
+  left: 100px;
+  top: 15px;
+}
+
+.espacamento {
+  border-bottom: 2px solid back;
+  border-bottom-style: dotted;
+  color: transparent;
+}
