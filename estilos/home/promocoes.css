@@ -30,22 +30,4 @@
 .pacote {
   justify-content: space-between;
   display: flex;
-  position: relative;
-}
-
-.pacote::after{
-  content: "";
-  display: inline-block;
-  height: 1px;
-  max-width: 997px;
-  background-color: var(--cor-1);
-  position: absolute;
-  left: 100px;
-  top: 15px;
-}
-
-.espacamento {
-  border-bottom: 2px solid back;
-  border-bottom-style: dotted;
-  color: transparent;
 }
