@@ -1,0 +1,51 @@
+.footer-bg {
+  background-color: var(--cor-3);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 40px 40px 20px;
+}
+
+.footer-conteudo {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-conteudo h2 {
+  margin-bottom: 10px;
+}
+
+.footer-conteudo p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.forma-de-pagamento {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.site-seguro {
+  max-width: 100px;
+}
+
+.footer-redes {
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+}
+
+.footer-redes img {
+  width: 40px;
+  height: 40px;
+}
+
+
+@media (max-width:940px){
+  .footer-conteudo {
+    flex-wrap: wrap;
+  }
+}
