@@ -10,6 +10,7 @@
 
 .footer-conteudo {
   display: flex;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -41,6 +42,7 @@
 .footer-redes img {
   width: 40px;
   height: 40px;
+  margin-bottom: 40px;
 }
 
 
