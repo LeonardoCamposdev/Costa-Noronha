@@ -36,7 +36,7 @@
 .footer-redes {
   cursor: pointer;
   display: flex;
-  gap: 5px;
+  gap: 12px;
 }
 
 .footer-redes img {
