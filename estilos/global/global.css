@@ -40,3 +40,21 @@ img {
   background-color: #f5a440;
   color: var(--cor-1);
 }
+
+.btn-padrao-2{
+  padding: 8px 14px;
+  justify-self: start;
+  text-transform: uppercase;
+  border-radius: 14px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #f5a440;
+  color: var(--cor-0);
+  letter-spacing: 2px;
+}
+
+.btn-padrao-2:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}

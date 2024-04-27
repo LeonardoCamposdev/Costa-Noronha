@@ -1,0 +1,38 @@
+.introducao-passeio-bg {
+  height: 700px;
+  background: url(../../imgs/image-passeio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.introducao-passeio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.introducao-passeio-conteudo {
+  padding: 200px 10px;
+  text-shadow: -11px -8px 20px black;
+}
+
+.introducao-passeio-conteudo h1 {
+  font-size: 4rem;
+}
+
+.introducao-passeio-conteudo p {
+  font-size: 1.2rem;
+  
+}
+
+
+@media (max-width: 700px) {
+  .introducao-passeio-conteudo h1 {
+    font-size: 3rem;
+  }
+
+  .introducao-passeio-conteudo p {
+    font-size: 1rem;
+  }
+}

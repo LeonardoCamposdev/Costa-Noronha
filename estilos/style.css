@@ -2,6 +2,7 @@
 @import "./global/utilidades/colors.css";
 @import "./global/utilidades/typography.css";
 
+/* HOME PAGE */
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./home/introducao2.css";
@@ -11,3 +12,8 @@
 @import "./home/avaliacoes.css";
 @import "./home/promocoes.css";
 @import "./home/footer.css";
+/* HOME PAGE */
+
+/*PASSEIOS */
+@import "./passeios/introducao-passeio.css";
+@import "./passeios/passeios.css";

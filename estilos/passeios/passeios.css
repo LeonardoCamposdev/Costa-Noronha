@@ -1,0 +1,50 @@
+.passeios-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.passeios-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.passeios-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.passeio-barcos {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.passeios-conteudo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.passeio-golfinhos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.passeios-conteudo .p-golfinhos {
+  max-width: 60ch;
+  font-weight: 600;
+}
+
+@media (max-width: 780px) {
+  .passeio-barcos {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:700px){
+  .passeios-conteudo h1 {
+    font-size: 3rem;
+  }
+}
