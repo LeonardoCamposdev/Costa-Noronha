@@ -14,7 +14,7 @@
   margin-bottom: 40px;
 }
 
-.passeio-barcos {
+.passeio-barcos, .passeio-carros {
   display: flex;
   gap: 40px;
   margin-bottom: 40px;
@@ -25,20 +25,21 @@
   margin-bottom: 20px;
 }
 
-.passeio-golfinhos {
+.passeio-golfinhos, .passeio-buggy {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 80px;
 }
 
-.passeios-conteudo .p-golfinhos {
+.passeios-conteudo .p-golfinhos, .p-buggy {
   max-width: 60ch;
   font-weight: 600;
 }
 
 @media (max-width: 780px) {
-  .passeio-barcos {
+  .passeio-barcos, .passeio-carros {
     flex-wrap: wrap;
   }
 }
