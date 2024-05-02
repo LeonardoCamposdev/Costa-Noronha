@@ -60,4 +60,8 @@
   .footer-conteudo {
     flex-wrap: wrap;
   }
+
+  .footer-creditos{
+    padding-bottom: 85px;
+  }
 }
