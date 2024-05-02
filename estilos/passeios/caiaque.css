@@ -9,6 +9,10 @@
   margin-bottom: 20px;
 }
 
+.caiaque-transparente-conteudo .h1-3rem{
+  font-size: 3rem;
+}
+
 .lista-caiaque-transparente {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
