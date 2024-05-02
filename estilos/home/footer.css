@@ -45,6 +45,16 @@
   margin-bottom: 40px;
 }
 
+.footer-creditos-bg{
+  background-color: var(--cor-0);
+}
+
+.footer-creditos{
+  text-align: center;
+  padding: 40px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
 
 @media (max-width:940px){
   .footer-conteudo {
