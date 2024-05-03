@@ -1,9 +1,11 @@
 @import "./global/global.css";
 @import "./global/utilidades/colors.css";
 @import "./global/utilidades/typography.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 /* HOME PAGE */
-@import "./home/header.css";
+
 @import "./home/introducao.css";
 @import "./home/introducao2.css";
 @import "./home/principais-servicos.css";
@@ -11,7 +13,7 @@
 @import "./home/galeria.css";
 @import "./home/avaliacoes.css";
 @import "./home/promocoes.css";
-@import "./home/footer.css";
+
 /* HOME PAGE */
 
 /*PASSEIOS */
