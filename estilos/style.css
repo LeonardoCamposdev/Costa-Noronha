@@ -21,3 +21,8 @@
 @import "./passeios/passeios.css";
 @import "./passeios/bike-aquatica.css";
 @import "./passeios/caiaque.css";
+/*PASSEIOS */
+
+/*MERGULHOS */
+@import "./mergulhos/introducao-mergulho.css";
+@import "./mergulhos/mergulho-cilindro.css";
