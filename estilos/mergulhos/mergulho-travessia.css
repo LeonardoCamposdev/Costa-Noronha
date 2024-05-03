@@ -1,0 +1,40 @@
+.mergulho-travessia-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.mergulho-travessia-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.mergulho-travessia-conteudo p{
+  font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.mergulho-travessia-galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+
+
+.mergulho-travessia-img2 img{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 780px) {
+  .mergulho-travessia-galeria {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mergulho-travessia-galeria h1 {
+      font-size: 3rem;
+  }
+}
