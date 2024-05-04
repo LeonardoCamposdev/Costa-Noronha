@@ -20,6 +20,10 @@
   gap: 15px;
 }
 
+.mergulho-travessia-galeria img{
+  border-radius: 20px;
+}
+
 .mergulho-travessia-img2 img {
   margin-bottom: 30px;
 }
