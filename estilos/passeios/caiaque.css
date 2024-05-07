@@ -1,7 +1,7 @@
 .caiaque-transparente-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 20px 40px 20px;
+  padding: 50px 20px 120px 20px;
 }
 
 .caiaque-transparente-conteudo h1 {
@@ -21,6 +21,7 @@
 
 .lista-caiaque-transparente img {
   margin-bottom: 40px;
+  border-radius: 20px;
 }
 
 .lista-caiaque-transparente h2 {

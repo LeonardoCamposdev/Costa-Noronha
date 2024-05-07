@@ -1,31 +1,36 @@
-.bike-aquatica-container {
+.mergulho-embarcado-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 20px 40px 20px;
+  padding: 100px 20px 40px 20px;
 }
 
-.bike-aquatica-conteudo h1 {
+.mergulho-embarcado-conteudo h1 {
   font-size: 4rem;
   margin-bottom: 20px;
 }
 
-.lista-bike-aquatica {
+.mergulho-embarcado-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.lista-mergulho-embarcado {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 10px;
 }
 
-.lista-bike-aquatica img {
+.lista-mergulho-embarcado img {
   margin-bottom: 40px;
   border-radius: 20px;
 }
 
-.lista-bike-aquatica h2 {
+.lista-mergulho-embarcado h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.lista-bike-aquatica p {
+.lista-mergulho-embarcado p {
   max-width: 36ch;
   line-height: 1.3;
   margin-bottom: 10px;
@@ -33,14 +38,14 @@
 }
 
 @media (max-width: 780px) {
-  .lista-bike-aquatica {
+  .lista-mergulho-embarcado {
     grid-template-columns: 1fr;
     gap: 20px 10px;
   }
 }
 
 @media (max-width: 700px) {
-  .bike-aquatica-conteudo h1 {
+  .mergulho-embarcado-conteudo h1 {
       font-size: 3rem;
   }
 }
