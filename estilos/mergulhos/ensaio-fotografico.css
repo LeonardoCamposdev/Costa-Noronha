@@ -1,0 +1,35 @@
+.ensaio-fotografico-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.ensaio-fotografico-conteudo h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ensaio-fotografico-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.img-ensaio {
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-bottom: 60px;
+}
+
+.ensaio-fotografico-conteudo .btn-padrao-3 {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 80px;
+}
+
+
+@media (max-width:500px){
+  .img-ensaio {
+    border-radius: 20px;
+  }
+}
