@@ -1,0 +1,53 @@
+.alugueis-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.alugueis-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.alugueis-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.alugueis-buggy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.alugueis-buggy img {
+  margin-bottom: 40px;
+}
+
+.alugueis-buggy h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.alugueis-buggy p {
+  max-width: 60ch;
+  font-weight: 600;
+}
+
+.alugueis-conteudo .btn-padrao-3{
+  background-color: #FF535F;
+}
+
+
+@media (max-width: 780px) {
+  .alugueis-buggy {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .alugueis-conteudo h1 {
+      font-size: 3rem;
+  }
+}
