@@ -1,0 +1,27 @@
+.introducao-alugueis-bg {
+  height: 700px;
+  background: url(../../imgs/image-alugueis.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.introducao-alugueis-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.introducao-alugueis-conteudo {
+  padding: 200px 10px;
+  text-shadow: -11px -8px 20px black;
+}
+
+.introducao-alugueis-conteudo h1 {
+  font-size: 4rem;
+}
+
+.introducao-alugueis-conteudo p {
+  font-size: 1.2rem;
+  
+}
