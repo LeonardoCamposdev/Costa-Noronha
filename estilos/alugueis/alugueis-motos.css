@@ -15,22 +15,22 @@
   max-width: 60ch;
 }
 
-.alugueis-buggy {
+.alugueis-motos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.alugueis-buggy img {
+.alugueis-motos img {
   margin-bottom: 40px;
 }
 
-.alugueis-buggy h2 {
+.alugueis-motos h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.alugueis-buggy p {
+.alugueis-motos p {
   max-width: 60ch;
   font-weight: 600;
 }
@@ -39,14 +39,9 @@
   background-color: #FF535F;
 }
 
-.alugueis-conteudo .btn-padrao-3:hover{
-  background-color: var(--cor-1);
-  color: var(--cor-0);
-}
-
 
 @media (max-width: 780px) {
-  .alugueis-buggy {
+  .alugueis-motos {
     grid-template-columns: 1fr;
     gap: 20px 10px;
   }
