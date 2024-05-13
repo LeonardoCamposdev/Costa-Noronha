@@ -23,6 +23,9 @@ img {
   height: auto;
 }
 
+.pages-background{
+  background-color: var(--cor-3);
+}
 
 .btn-padrao{
   padding: 8px 14px;

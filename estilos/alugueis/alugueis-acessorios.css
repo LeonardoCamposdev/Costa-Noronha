@@ -1,0 +1,44 @@
+.alugueis-acessorios-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.alugueis-acessorios-conteudo h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.alugueis-acessorios-conteudo p{
+  font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.lista-acessorios{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.lista-acessorios img{
+  width: 250px;
+  border-radius: 50%;
+}
+
+@media (max-width: 780px) {
+  .lista-acessorios {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .alugueis-acessorios-conteudo h1 {
+      font-size: 3rem;
+  }
+
+  .lista-acessorios {
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
