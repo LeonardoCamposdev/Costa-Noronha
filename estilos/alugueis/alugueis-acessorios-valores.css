@@ -1,0 +1,29 @@
+.alugueis-acessorios-valores-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px 120px 20px;
+}
+
+.alugueis-acessorios-valores-conteudo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.alugueis-acessorios-valores-pacotes li{
+  margin-bottom: 30px;
+}
+
+.alugueis-acessorios-valores-pacotes span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.alugueis-acessorios-valores-pacotes p{
+  font-weight: 600;
+}
+
+.pacote {
+  justify-content: space-between;
+  display: flex;
+}
