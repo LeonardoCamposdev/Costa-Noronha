@@ -30,5 +30,9 @@
 
 .alugueis-acessorios-valores-conteudo .btn-padrao-3{
   background-color: #FF535F;
-  
+}
+
+.alugueis-acessorios-valores-conteudo .btn-padrao-3:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
 }

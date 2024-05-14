@@ -39,6 +39,11 @@
   background-color: #FF535F;
 }
 
+.alugueis-motos-conteudo .btn-padrao-3:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}
+
 
 @media (max-width: 780px) {
   .alugueis-motos {
