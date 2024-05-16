@@ -38,3 +38,8 @@
 @import "./alugueis/alugueis-duster.css";
 @import "./alugueis/alugueis-acessorios.css";
 @import "./alugueis/alugueis-acessorios-valores.css";
+/*ALUGUEIS */
+
+/*TRILHAS */
+@import "./trilhas/introducao-trilhas.css";
+@import "./trilhas/trilhas.css";

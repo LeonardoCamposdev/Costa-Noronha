@@ -1,0 +1,59 @@
+.trilhas-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.trilhas-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.trilhas-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+  max-width: 60ch;
+}
+
+.trilhas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.trilhas img {
+  margin-bottom: 40px;
+}
+
+.trilhas-buggy h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.trilhas-buggy p {
+  max-width: 60ch;
+  font-weight: 600;
+}
+
+.trilhas-conteudo .btn-padrao-3{
+  background-color: #74AA0C;
+}
+
+.trilhas-conteudo .btn-padrao-3:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}
+
+
+@media (max-width: 780px) {
+  .trilhas {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .trilhas-conteudo h1 {
+      font-size: 3rem;
+  }
+}

@@ -1,0 +1,27 @@
+.introducao-trilhas-bg {
+  height: 700px;
+  background: url(../../imgs/image-trilhas.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.introducao-trilhas-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.introducao-trilhas-conteudo {
+  padding: 200px 10px;
+  text-shadow: -11px -8px 20px black;
+}
+
+.introducao-trilhas-conteudo h1 {
+  font-size: 4rem;
+}
+
+.introducao-trilhas-conteudo p {
+  font-size: 1.2rem;
+  
+}
