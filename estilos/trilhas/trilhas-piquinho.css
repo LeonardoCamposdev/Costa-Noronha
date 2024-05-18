@@ -1,0 +1,54 @@
+.trilhas-piquinho-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 40px 20px;
+}
+
+.trilhas-piquinho-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.trilhas-piquinho-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+  max-width: 60ch;
+}
+
+.trilhas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.trilhas img {
+  margin-bottom: 40px;
+}
+
+.trilhas  h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.trilhas-piquinho-conteudo .btn-padrao-3{
+  background-color: #74AA0C;
+}
+
+.trilhas-piquinho-conteudo .btn-padrao-3:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}
+
+
+@media (max-width: 780px) {
+  .trilhas {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .trilhas-piquinho-conteudo h1 {
+      font-size: 3rem;
+  }
+}

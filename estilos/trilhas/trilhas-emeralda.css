@@ -1,59 +1,56 @@
-.trilhas-container {
+.trilhas-costaesmeralda-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px 40px 20px;
 }
 
-.trilhas-conteudo h1 {
-  font-size: 4rem;
+.trilhas-costaesmeralda-conteudo h1 {
+  font-size: 3rem;
   margin-bottom: 20px;
 }
+.trilhas-costaesmeralda-conteudo  p:nth-child(1){
+  margin-bottom: 10px;
+}
 
-.trilhas-conteudo p {
+.trilhas-costaesmeralda-conteudo p {
   font-weight: 600;
   margin-bottom: 40px;
   max-width: 60ch;
 }
 
-.trilhas {
+.trilhas-costaesmeralda-conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 20px;
 }
 
-.trilhas img {
+.trilhas-costaesmeralda-conteudo img {
   margin-bottom: 40px;
 }
 
-.trilhas-buggy h2 {
+.trilhas-costaesmeralda-conteudo  h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.trilhas-buggy p {
-  max-width: 60ch;
-  font-weight: 600;
-}
-
-.trilhas-conteudo .btn-padrao-3{
+.trilhas-costaesmeralda-conteudo .btn-padrao-3{
   background-color: #74AA0C;
 }
 
-.trilhas-conteudo .btn-padrao-3:hover{
+.trilhas-costaesmeralda-conteudo .btn-padrao-3:hover{
   background-color: var(--cor-1);
   color: var(--cor-0);
 }
 
-
 @media (max-width: 780px) {
-  .trilhas {
+  .trilhas-costaesmeralda-conteudo {
     grid-template-columns: 1fr;
     gap: 20px 10px;
   }
 }
 
 @media (max-width: 700px) {
-  .trilhas-conteudo h1 {
+  .trilhas-costaesmeralda-conteudo h1 {
       font-size: 3rem;
   }
 }

@@ -42,4 +42,6 @@
 
 /*TRILHAS */
 @import "./trilhas/introducao-trilhas.css";
-@import "./trilhas/trilhas.css";
+@import "./trilhas/trilhas-piquinho.css";
+@import "./trilhas/trilhas-sao-jose.css";
+@import "./trilhas/trilhas-emeralda.css";
