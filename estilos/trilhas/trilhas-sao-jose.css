@@ -1,3 +1,6 @@
+.trilhas-saojose-bg{
+  background-color: var(--cor-3);
+}
 .trilhas-saojose-container {
   max-width: 1200px;
   margin: 0 auto;

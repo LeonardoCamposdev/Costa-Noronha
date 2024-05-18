@@ -1,51 +1,60 @@
-.mergulho-cilindro-container {
+.trilhas-capimaçu-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px 40px 20px;
 }
 
-.mergulho-cilindro-conteudo h1 {
+.trilhas-capimaçu-conteudo h1 {
   font-size: 4rem;
   margin-bottom: 20px;
 }
 
-.mergulho-cilindro-conteudo p{
+.trilhas-capimaçu-conteudo p{
   font-weight: 600;
     margin-bottom: 40px;
 }
 
-.lista-mergulho-cilindro {
+.lista-praias {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 10px;
 }
 
-.lista-mergulho-cilindro img {
+.lista-praias img {
   margin-bottom: 40px;
   border-radius: 20px;
 }
 
-.lista-mergulho-cilindro h2 {
+.lista-praias h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.lista-mergulho-cilindro p {
+.lista-prais p {
   max-width: 36ch;
   line-height: 1.3;
   margin-bottom: 40px;
   font-weight: 600;
 }
 
+.trilhas-capimaçu-conteudo .btn-padrao-3{
+  background-color: #74AA0C;
+}
+
+.trilhas-capimaçu-conteudo .btn-padrao-3:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}
+
 @media (max-width: 780px) {
-  .lista-mergulho-cilindro {
+  .lista-praias {
     grid-template-columns: 1fr;
     gap: 20px 10px;
   }
 }
 
 @media (max-width: 700px) {
-  .mergulho-cilindro-conteudo h1 {
+  .praias-capimacu-conteudo h1 {
       font-size: 3rem;
   }
 }
