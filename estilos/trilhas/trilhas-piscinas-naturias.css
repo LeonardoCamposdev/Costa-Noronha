@@ -1,0 +1,60 @@
+.trilhas-piscinas-naturais-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px 120px 20px;
+}
+
+.trilhas-piscinas-naturais-conteudo h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.trilhas-piscinas-naturais-conteudo p {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.lista-piscinas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 10px;
+}
+
+.lista-piscinas img {
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.lista-praias h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.lista-prais p {
+  max-width: 36ch;
+  line-height: 1.3;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.trilhas-piscinas-naturais-conteudo .btn-padrao-3 {
+  background-color: #74aa0c;
+}
+
+.trilhas-piscinas-naturais-conteudo .btn-padrao-3:hover {
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+}
+
+@media (max-width: 780px) {
+  .lista-piscinas {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .trilhas-piscinas-naturais-conteudo h1 {
+    font-size: 3rem;
+  }
+}
