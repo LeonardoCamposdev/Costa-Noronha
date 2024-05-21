@@ -11,7 +11,7 @@
 
 .js-li-scroll2{
   opacity: 0;
-  transform: translate3d(60px, 0, 0);
+  transform: translate3d(20px, 0, 0);
   transition: .9s;
 }
 
@@ -23,7 +23,7 @@
 .js-li-scroll3{
   opacity: 0;
   transform: translate3d(0, 60px, 0);
-  transition: .9s;
+  transition: .5s;
 }
 
 .js-li-scroll3.ativo{
