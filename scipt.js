@@ -54,7 +54,7 @@ initAnimacaoScroll2();
 //ANIMAÇÃO SCROLL TOP//
 function initAnimacaoScroll3(){
   const sectionScroll = document.querySelectorAll(".js-li-scroll3");
-  const windowMetade = window.innerHeight * 0.7;
+  const windowMetade = window.innerHeight * 0.9;
   
   function animaScroll(){
     const section = sectionScroll;
